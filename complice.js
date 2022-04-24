@@ -133,5 +133,5 @@ console.log("Initializing Complice server.");
   }
   const port = 7000;
   console.log("Listening on port ", port);
-  app.listen(port);
+  app.listen(port, '0.0.0.0');
 })();
